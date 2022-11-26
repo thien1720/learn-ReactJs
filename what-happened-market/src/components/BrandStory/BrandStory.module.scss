@@ -1,0 +1,134 @@
+.brand {
+  background-color: var(--cerulean);
+  padding: 12rem 0;
+  margin-top: 10rem;
+  position: relative;
+  overflow: hidden;
+
+  .images-style1 {
+    position: absolute;
+    right: 0rem;
+    top: 2rem;
+    img {
+      width: 30%;
+      height: auto;
+      object-fit: cover;
+    }
+    .images-02 {
+    }
+    .images-03 {
+      transform: translate(-40%, 30%);
+    }
+  }
+  .head-brand {
+    text-align: center;
+    h1 {
+      font-family: Montserrat;
+      font-size: 3.5rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: var(--sun-yellow);
+      letter-spacing: 4.5px;
+    }
+    p {
+      font-family: NotoSansCJKkr;
+      color: var(--sun-yellow);
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+  }
+
+  .story-brand {
+    display: flex;
+  }
+
+  .box-story {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+    img {
+      width: 80%;
+    }
+
+    .detail-story {
+      position: absolute;
+      left: 50%;
+      margin-left: 2rem;
+      h6 {
+        margin-top: 6rem;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--black-two);
+      }
+      p {
+        margin: 2rem auto;
+        font-weight: 300;
+        font-family: NotoSansCJKkr;
+        font-size: 1.2rem;
+        width: 42.5rem;
+      }
+      button {
+        font-size: 1.4rem;
+        font-weight: 800;
+        padding: 1.2rem 2.8rem;
+        text-transform: uppercase;
+        background-color: var(--style-color);
+        border: 3px solid var(--dark-maroon);
+      }
+    }
+  }
+
+  .story-set1 {
+    position: absolute;
+    display: flex;
+    .story-list-book {
+      object-fit: cover;
+      height: 28rem;
+      margin-top: 20%;
+    }
+    .story-nav {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .story-book {
+      width: 12rem;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .story-note {
+      width: 12rem;
+      position: absolute;
+      top: -38%;
+      left: -14%;
+    }
+  }
+
+  .story-set3 {
+    position: absolute;
+    right: 10%;
+    display: flex;
+    justify-content: space-around;
+    .story-year {
+      position: absolute;
+      object-fit: contain;
+      width: 28.6rem;
+      top: 14rem;
+      right: -16rem;
+      z-index: 1;
+    }
+    .story-flower {
+      position: absolute;
+      object-fit: contain;
+      width: 22rem;
+      top: -12rem;
+      right: -22rem;
+    }
+  }
+}

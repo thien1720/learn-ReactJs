@@ -1,0 +1,60 @@
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--while-three);
+  border-bottom: 1px solid var(--while-three);
+  padding: 4.9rem 0;
+  margin: 1rem 9.7rem 0 9.7rem;
+  .head-list {
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 2.8rem;
+  }
+
+  .complit {
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+
+  .option-shop {
+    display: flex;
+    justify-content: space-around;
+    .about-us,
+    .my-order,
+    .my-acount,
+    .help {
+      margin-left: 5rem;
+    }
+  }
+  ul {
+    padding: 0;
+    list-style-type: none;
+    li {
+      font-size: 1.4rem;
+      font-family: NotoSansCJKkr;
+      font-weight: 300;
+      line-height: 2;
+    }
+  }
+
+}
+.detail-social {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 9.7rem 10rem 9.7rem;
+  p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+  .social{
+    display:flex;
+    align-items:center;
+      img{
+        margin: 0 1rem;
+      }
+  }
+}

@@ -1,0 +1,35 @@
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+    padding: 0 9.7rem;
+  background-color: var(--style-nomal);
+  .logo {
+    line-height: 8rem;
+  }
+  img {
+    width: 170px;
+    height: 26px;
+    // margin: 0.3rem 68.7rem 0 0;
+    object-fit: contain;
+  }
+  .apply-login{
+    border-left: 1px solid var(--gray-pinkish);
+  }
+  .box-route,
+  ul {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    list-style-type: none;
+    margin: 0;
+  }
+  li {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    margin: 0 2rem;
+    text-transform: uppercase;
+  }
+}

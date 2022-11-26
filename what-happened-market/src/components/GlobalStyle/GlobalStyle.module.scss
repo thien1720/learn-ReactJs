@@ -1,0 +1,40 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Noto+Sans+KR:wght@300;400;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+:root {
+    --style-nomal: #111111;
+    --black-two: #222222;
+    --style-color:#fff;
+    --gray-pinkish:#ccc8c6;
+    --while-three : #f4f4f4;
+    --bright-origin : #f96400;
+    --dark-maroon:#020001;
+    --cerulean:#0565bb;
+    --sun-yellow:#fcd32a;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  text-rendering: optimizeLegibility;
+  p {
+    margin: 0;
+  }
+  a {
+    color: var(--style-nomal);
+    text-decoration: none;
+    &:hover {
+      color: var(--style-nomal);
+    }
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

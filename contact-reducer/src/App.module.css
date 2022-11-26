@@ -1,0 +1,24 @@
+.App{
+  margin: 0 50%;
+  
+}
+.listName{
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.dart{
+  background-color: #000000;
+  color: antiquewhite;
+  border: none;
+}
+.light{
+  border-radius: 4px;
+  padding: 0 20px;
+}
+
+.styleInput{
+  padding: 5px 10px;
+  margin-top: 50vh;
+  font-size: 18px;
+}

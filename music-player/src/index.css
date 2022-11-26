@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.style-header{
+  background-color:greenyellow;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.style-icon{
+  font-size: 30px;
+  margin:0 10px;
+}
+.list-songs{
+  overflow-y: scroll;
+}
+table{
+  width: 100%;
+}
+tr{
+  cursor: pointer;
+}
+tr:hover{
+  background-color:#100F0F;
+}
+.style-song{
+  background-color:#100F0F;
+
+}
+th{
+  color: #E8F9FD;
+}
+td{
+  font-weight: 500;
+  color:#7DCE13;
+}

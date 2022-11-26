@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+.nav-icon{
+  height:50px;
+  background-color: #ccc;
+}
+.nav-icon i{
+  font-size: 30px;
+  line-height: 50px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.bar{
+  background-color: #ddd;
+  width:300px;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  
+  z-index:9999;
+}
+
+
+.bar-icon{
+  position:absolute;
+  right:0 ;
+  margin: 0 1rem;
+  font-size: 30px;
+  cursor: pointer;
+}
+.list-child,
+.iteam-bar{
+  list-style-type: none;
+}
+.iteam-bar{
+  margin-top: 50px;
+}
+
+.nav-ieam{
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  color:#000000;
+}
+.nav-ieam i{
+  margin-right: 0.1rem;
+  cursor: pointer;
+}
+li a{
+  text-decoration: none;
+}
+.style_name{
+  margin-left:300px;
+}
+
+.list-child li{
+  display: flex;
+  margin: 0 30px;
+}
+
+.content-iteam{
+  margin: 10vh 100%;
+}
+  
+.list-child_iteam{
+  font-size: 18px;
+  color: #000000
+}

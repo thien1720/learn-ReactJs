@@ -1,0 +1,85 @@
+.view-product {
+  background-image: url(../../../public/images/bes-bg.jpg);
+  background-repeat: no-repeat;
+  // background-position: 50% 50%;
+  background-size: contain;
+  padding: 15rem;
+
+  .head-product {
+    position: relative;
+    top: -5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--bright-origin);
+    h1 {
+      font-family: Montserrat;
+      font-size: 3.5rem;
+      font-weight: 900;
+      letter-spacing: 5px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    p {
+      font-family: Montserrat;
+      font-size: 1.6rem;
+      line-height: 1.6;
+      width: 55rem;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  .iteam-show {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.list-product {
+  position: relative;
+  .style-image-iteam {
+    // position: absolute;
+    .style-number {
+      position: absolute;
+      img {
+        position: absolute;
+        top: -95%;
+        width: 6rem;
+      }
+      .number-iteam {
+        position: relative;
+        left: 85%;
+        font-size: 2rem;
+        font-weight: 800;
+        transform: translateY(-55%);
+        text-decoration-line: underline;
+      }
+    }
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+    .optimeied {
+      display: flex;
+      align-items: center;
+      margin: 0 3.2rem;
+      border: 3px solid var(--dark-maroon);
+      background-color: var(--style-color);
+      position: relative;
+      top: -3.8rem;
+      p {
+        font-family: Montserrat;
+        font-size: 1.6rem;
+        font-weight: 800;
+        line-height: 1.2;
+        margin: 1.5rem;
+      }
+      img {
+        display: block;
+        margin: auto;
+        width: 6.5rem;
+        object-fit: cover;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.content{
+  display: flex;
+  height: 80vh;
+  background-color: #411530;
+  overflow:hidden;
+}
+h2{
+  color: #7DCE13;
+}
+.cyan{
+  font-size:20px;
+  color:#7DCE13;
+  margin: 10px 0;
+}
+.neutral{
+  margin: 10px 0;
+}
+.banner-author img {
+  width:100px;
+  height:100px;
+}
+.name-play-music{
+  padding: 100px 0;
+}
+

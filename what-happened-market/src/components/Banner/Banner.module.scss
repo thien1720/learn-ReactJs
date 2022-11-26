@@ -1,0 +1,37 @@
+.banner {
+  img {
+    width: 100%;
+    display: flex;
+  }
+
+  .introduce {
+    background-image: url(../../../public/images/introduction-bg.png);
+    padding: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    // position: relative;
+    .intro-text {
+      position: relative;
+      top: 1rem;
+      left: 4rem;
+      color: var(--style-color);
+
+      h6 {
+        font-size: 3.5rem;
+        font-family: Montserrat;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: 1.2;
+        letter-spacing: 5px;
+      }
+      p{
+        margin-top: 3.6rem;
+        font-size:2rem;
+        line-height: 1.75;
+        font-family: Montserrat;
+        width: 67rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.list-product{
+    margin-top: 5rem;
+
+    .btn-more{
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem  ;
+        button{
+            font-size: 2.4rem;
+            font-weight: 800;
+            padding: 1.2rem 2.8rem;
+            text-transform: uppercase;
+            background-color: var(--style-color);
+            border:3px solid var(--dark-maroon)
+        }
+    }
+}
+
+.style-item {
+    margin-bottom: 6rem;
+  img {
+    width: 100%;
+  }
+
+  .description {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    font-weight: 600;
+    line-height: 1.94;
+    color: var(--black-two);
+  }
+
+  .detail-mon{
+    display:flex;
+    justify-content: space-between;
+
+    .love-icon{
+        fill: var(--bright-origin);
+      
+    }
+  }
+}
